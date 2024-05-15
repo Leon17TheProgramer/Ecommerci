@@ -1,0 +1,205 @@
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+  
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+  
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+  
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+  
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+  
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+  
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+  
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+  
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+  
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+  
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}                         
+
+
+
+
+
+
+/*camelo do stylebo*/
+
+
+
+
+body{
+    justify-content: center;
+    background-color: #ebeaea;
+    flex-direction: column;
+    /*margin: 50px;*/
+    margin: 50px;
+    display: flex;
+    
+}
+
+.cabecario{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    /*margin: 10px 500px;*/
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+.flex{
+    display: flex;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+}
+.botao{
+  margin-left: 30px;
+  margin-right: 30px;
+  border-style: none;
+  background-color: white;
+  font-size: 1rem
+}
+.texto{
+    color: black;
+}
+.minitexto{
+    color: #8A8A8A;
+}
+.megatexto{
+    color: #B88E2F;
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 0;
+}
+.container1{
+  background-color: #F8E0AB;
+  flex-direction: row;
+  height: center;
+  width: right;
+  padding: 50px;
+}
+
+.container2{
+    background-color: #FFF3E3;
+    flex-direction: column;
+    padding: 50px;
+    margin-left: 525px;
+    margin-top: 130px;
+    border-radius: 12px;
+}
+
+.botao1{
+  background-color: #B88E2F;
+  color: white;
+  border-style: none;
+  padding: 25px 50px;
+  transition-duration: 0.4s;
+}
+.botao1:hover{
+  background-color: #ffd574;
+  color: black;
+}
+.botao2{
+  border-style: solid;
+  border-color: #B88E2F;
+  color: #B88E2F;
+  padding: 25px 50px;
+  transition-duration: 0.4s;
+}
+.botao2:hover{
+  border-color: #ffd574;
+  color: #ffd574;
+}
+.logo{
+  width: 50px;
+  height: 25px;
+  padding-right: 5px;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+}
+/*só para deixar as cores salvas*/
+.cor1{
+    background-color: #F8E0AB;
+}
+.cor2{
+    background-color: #B88E2F;
+}
+.cor3{ 
+    background-color: #8A8A8A;
+}
+.cor4{
+    background-color: #F4F5F7;
+}
+.cor5{
+    background-color: #FCF8F3;
+}
+.cor6{
+    background-color: white;
+}
+.cor7{
+    background-color: #FFF3E3;
+}
